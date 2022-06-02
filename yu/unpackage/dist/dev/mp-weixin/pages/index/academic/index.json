@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "教学楼",
+  "usingComponents": {
+    "academic-list": "/components/academicList/academicList",
+    "drop-down": "/pages/index/academic/components/dropdown"
+  }
+}

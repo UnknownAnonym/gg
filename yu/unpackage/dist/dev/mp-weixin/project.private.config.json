@@ -1,0 +1,77 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/delicious",
+          "pathName": "pages/index/delicious/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/video",
+          "pathName": "pages/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/news/news",
+          "pathName": "pages/news/news",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/shopdetail/index",
+          "pathName": "pages/shopdetail/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/photo/photo",
+          "pathName": "pages/photo/photo",
+          "query": "title=粉面世家",
+          "scene": null
+        },
+        {
+          "name": "pages/index/delivery",
+          "pathName": "pages/index/delivery/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/canteen",
+          "pathName": "pages/index/canteen/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/academic/index",
+          "pathName": "pages/index/academic/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/training/index",
+          "pathName": "pages/index/training/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/academicdetail/index",
+          "pathName": "pages/academicdetail/index",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

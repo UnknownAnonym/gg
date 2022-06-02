@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "实训楼",
+  "usingComponents": {
+    "training-list": "/components/trainingList/trainingList",
+    "dropdown": "/pages/index/training/components/dropdown"
+  }
+}

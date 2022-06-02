@@ -1,0 +1,1 @@
+<block wx:for="{{rightList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="demo-warter data-v-7e8cde2c"><u-lazy-load vue-id="{{'530f685a-3-'+index}}" threshold="-450" border-radius="10" image="{{item.image}}" index="{{index}}" class="data-v-7e8cde2c" bind:__l="__l"></u-lazy-load><view class="data-v-7e8cde2c">4564</view></view></block>

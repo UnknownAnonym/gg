@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "美食相片",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load"
+  }
+}

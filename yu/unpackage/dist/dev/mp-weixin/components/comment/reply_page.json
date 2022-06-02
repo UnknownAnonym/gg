@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "全部回复",
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

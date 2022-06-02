@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "top": "/pages/index/top",
+    "water-fall": "/pages/index/waterfall",
+    "nav-bar": "/pages/index/navbar",
+    "hot-spot": "/pages/index/hotspot",
+    "word-topic": "/pages/index/wordtopic"
+  }
+}

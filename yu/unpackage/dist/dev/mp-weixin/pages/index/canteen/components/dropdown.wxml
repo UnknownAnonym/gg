@@ -1,0 +1,1 @@
+<view><u-dropdown vue-id="0edd95c7-1" bind:__l="__l" vue-slots="{{['default']}}"><u-dropdown-item bind:input="__e" vue-id="{{('0edd95c7-2')+','+('0edd95c7-1')}}" title="位置" options="{{options1}}" value="{{value1}}" data-event-opts="{{[['^input',[['__set_model',['','value1','$event',[]]]]]]}}" bind:__l="__l"></u-dropdown-item></u-dropdown></view>

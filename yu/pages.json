@@ -1,0 +1,141 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/tabbar",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/delicious/index",
+			"style": {
+				"navigationBarTitleText": "美食",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path":"pages/index/delivery/index",
+			"style":{
+				"navigationBarTitleText":"快递"
+			}
+		},
+		
+		{
+			"path":"pages/index/canteen/index",
+			"style":{
+				"navigationBarTitleText":"饭堂"
+			}
+		},
+		
+		{
+			"path":"pages/index/academic/index",
+			"style":{
+				"navigationBarTitleText":"教学楼"
+			}
+		},
+		
+		{
+			"path":"pages/index/training/index",
+			"style":{
+				"navigationBarTitleText":"实训楼"
+			}
+		},
+		
+		{
+			"path": "pages/shopdetail/index",
+			"style": {
+				"navigationBarTitleText": "美食详细",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path":"pages/academicdetail/index",
+			"style":{
+				"navigationBarTitleText":"教学楼详细",
+				"navigationStyle":"custom"
+			}
+		},
+		
+		{
+			"path":"pages/mappage/index",
+			"style":{
+				"navigationBarTitleText":"地图"
+			}
+		},
+		
+		{
+			"path":"pages/trainingdetail/index",
+			"style":{
+				"navigationBarTitleText":"实训楼详细",
+				"navigationStyle":"custom"
+			}
+		},
+		
+		{
+			"path": "pages/photo/photo",
+			"style": {
+				"navigationBarTitleText": "美食相片",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯详情"
+			}
+		},
+		
+		{
+			"path":"pages/shopdetail/components/storeMessage",
+			"style":{
+				"navigationBarTitleText":"店铺详情"
+			}
+		},
+		
+		{
+			"path":"components/comment/write_comment",
+			"style":{
+				"navigationBarTitleText":"写评论",
+				"navigationStyle": "custom"				
+			}
+		},
+		
+		{
+			"path":"components/comment/share",
+			"style":{
+				"navigationBarTitleText":"分享",
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path":"components/comment/reply_page",
+			"style":{
+				"navigationBarTitleText":"全部回复"
+			}			
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "condition" : { //模式配置，仅开发期间生效
+	// 	"current": 0, //当前激活的模式(list 的索引项)
+	// 	"list": [
+	// 		{
+	// 			"name": "", //模式名称
+	// 			"path": "", //启动页面，必选
+	// 			"query": "" //启动参数，在页面的onLoad函数里面得到
+	// 		}
+	// 	]
+	// },
+}

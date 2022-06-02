@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "美食",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "drop-down": "/pages/index/delicious/components/dropdown",
+    "nav": "/pages/index/delicious/components/nav",
+    "shop-list": "/components/shopList/shopList"
+  }
+}

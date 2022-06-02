@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "快递",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "nav": "/pages/index/delivery/components/nav"
+  }
+}

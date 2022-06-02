@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "饭堂",
+  "usingComponents": {
+    "canteen-list": "/components/canteenList/canteenList",
+    "drop-down": "/pages/index/canteen/components/dropdown"
+  }
+}

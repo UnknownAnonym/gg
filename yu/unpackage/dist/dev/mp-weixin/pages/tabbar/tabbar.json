@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "index": "/pages/tabbar/inedx",
+    "discuss": "/pages/tabbar/discuss",
+    "news": "/pages/tabbar/news",
+    "me": "/pages/tabbar/me"
+  }
+}

@@ -1,0 +1,1 @@
+<view><dropdown vue-id="963e6bc2-1" bind:__l="__l"></dropdown><canteen-list vue-id="963e6bc2-2" cateenDetail="{{cateenDetail}}" bind:__l="__l"></canteen-list></view>

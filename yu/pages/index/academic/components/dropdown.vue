@@ -1,0 +1,49 @@
+<template>
+	<view>
+		<u-dropdown>
+			<u-dropdown-item v-model="value1" title="位置" :options="options1"></u-dropdown-item>
+		</u-dropdown>
+	</view>
+</template>
+
+<script>
+	export default{
+		data(){
+			return{
+				value1:1,
+				options1:[{
+						label:'全部',
+						value:1,
+					},
+					{
+						label:'一栋教学楼',
+						value:2,
+					},
+					{
+						label:'二栋教学楼',
+						value:3,
+					},
+					{
+						label:'三栋教学楼',
+						value:4,
+					},
+					{
+						label:'四栋教学楼',
+						value:5,
+					},
+					{
+						label:'图书馆',
+						value:6,
+					},
+					{
+						label:'男生宿舍36栋',
+						value:7,
+					}
+				]
+			}
+		}
+	}
+</script>
+
+<style>
+</style>

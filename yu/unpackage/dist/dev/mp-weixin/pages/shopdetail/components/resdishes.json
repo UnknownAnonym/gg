@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "u-divider": "/uview-ui/components/u-divider/u-divider",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-card": "/uview-ui/components/u-card/u-card",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "comment": "/components/comment/comment"
+  },
+  "component": true
+}

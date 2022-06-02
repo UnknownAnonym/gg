@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "美食详细",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-rate": "/uview-ui/components/u-rate/u-rate",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "comment": "/components/comment/comment",
+    "goods-img": "/pages/shopdetail/components/goodsImg",
+    "res-dishes": "/pages/shopdetail/components/resdishes",
+    "tab-bar": "/pages/shopdetail/components/tabBar"
+  }
+}

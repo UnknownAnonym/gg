@@ -1,0 +1,1 @@
+<view class="u-wrap data-v-3e1d8730"><cu-custom vue-id="3d36d19e-1" bgColor="bg-gradual-blue" isBack="{{false}}" class="data-v-3e1d8730" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content" class="data-v-3e1d8730">校内吐槽</view></cu-custom></view>
