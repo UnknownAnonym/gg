@@ -1,0 +1,170 @@
+{
+	"easycom": {
+	       "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	   },	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"backgroundColor":"#2b85e4",//#50cc99"
+				"enablePullDownRefresh": true,
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "轻life",
+				"enablePullDownRefresh": true,
+				 "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/comment/comment",
+			"style": {
+				"navigationBarTitleText": "轻life"
+				
+			}
+		},
+		{
+			"path": "components/order/addposts",
+			"style": {
+				 "navigationBarTitleText": "发布页"
+			}
+		},
+		{
+			"path": "components/order/index",
+			"style": {
+				 "navigationBarTitleText": "评价"
+			}
+		},
+		{
+			"path": "components/jingdian/index",
+			"style": {
+				 "navigationBarTitleText": "景点"
+			}
+		},
+		{
+			"path": "components/jingdian/second",
+			"style": {
+				 "navigationBarTitleText": "景点",
+				 "enablePullDownRefresh": true,
+				  "navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "components/mine/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+			
+		{
+			"path": "components/food/one",
+			"style": {
+				"navigationBarTitleText": "商店"
+			}
+		},
+		{
+			"path": "components/mine/personal",
+			"style": {
+				"navigationBarTitleText": "商店"
+			}
+		},
+		
+		{
+			"path": "components/food/second",
+			"style": {
+				"navigationBarTitleText": "轻life",
+				"enablePullDownRefresh": true,
+				 "navigationStyle": "custom"
+			}
+			
+		},
+		
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "发布"
+				
+			}
+		},
+		
+		
+		{
+			"path": "pages/zujian/index",
+			"style": {
+				"navigationBarTitleText": "社区"
+			}
+		},
+			   
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#50cc99",
+		"backgroundColor": "#2b85e4"
+		
+	},
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#2B85E4",
+		"backgroundColor":"#fff",
+		"position":"bottom",
+		"borderStyle":"black",
+		"list":[
+			{
+				"iconPath":"static/img/home2.png",
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"selectedIconPath":"static/img/home3.png"
+				// "enablePullDownRefresh": true,
+				//  "navigationStyle": "custom"
+				
+			},
+			{
+				"iconPath":"static/img/order2.png",
+				"pagePath":"pages/order/index",
+				"text":"发布",
+				"selectedIconPath":"static/img/order.png"
+				
+				
+			},
+			{	
+				"iconPath":"static/img/order2.png",
+				"pagePath":"pages/zujian/index",
+				"text":"社区",
+				"selectedIconPath":"static/img/order.png"
+				 // "enablePullDownRefresh": false
+			},
+			
+			// {
+			// 	"pagePath":"pages/login/index",
+			// 	"text":"登录测试"
+				
+			// },
+			{
+				"pagePath":"pages/mine/index",
+				"text":"个人中心",
+				"iconPath":"static/img/person.png",
+				"selectedIconPath":"static/img/person2.png"
+				
+			}
+		]
+	}
+}
